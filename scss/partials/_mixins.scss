@@ -1,0 +1,18 @@
+// Mixins and Variables
+
+$c-red: #c5232d;
+$c-grey: #2a2a2a;
+
+$c-red-dark: darken($c-red, 15%);
+$c-grey-light: #7a7a7a;
+
+
+// Mixins
+
+@mixin transition($speed) {
+	-webkit-transition: all $speed ease;
+	-moz-transition: all $speed ease;
+	-ms-transition: all $speed ease;
+	-o-transition: all $speed ease;
+	transition: all $speed ease;
+}

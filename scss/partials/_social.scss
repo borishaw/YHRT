@@ -1,0 +1,97 @@
+// Social
+
+
+/* #Social
+================================================== */
+.social a[class*="entypo-"]:before {
+	font-family: 'entypo', sans-serif;
+	font-size:14px;
+}
+.social-wrap {
+	height: 23px;
+	right: 50px;
+	top:50px;
+	position: absolute;
+	width: 90px;
+	z-index:100;
+}
+
+/* ---------- SOCIAL ---------- */
+
+.social {
+	position: relative;
+	height: 23px;
+	width: 90px;
+}
+
+.social li {
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	margin: -15px;
+	position: absolute;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+	text-align: center;
+	width: 30px;
+}
+
+.social li a {
+	color: #fffdf0;
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	-webkit-transition: -webkit-transform .5s;
+	-moz-transition: -moz-transform .5s;
+	-ms-transition: -ms-transform .5s;
+	-o-transition: -o-transform .5s;
+	transition: transform .5s;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	width: 30px;	
+}
+
+.social li:hover a{
+	-webkit-transform: rotate(315deg);
+	-moz-transform: rotate(315deg);
+	-ms-transform: rotate(315deg);
+	-o-transform: rotate(315deg);
+	transform: rotate(315deg);
+}
+
+.facebook {
+	background: rgba(21,91,157,.7);
+	left: 50%;
+	top: 0%;
+}
+
+.twitter {
+	background: rgba(26,158,196,.7);
+	bottom: 0;
+	left: 25%;
+}
+
+.dribbble {
+	background: rgba(208,95,143,.7);
+	left: 50%;
+	top: 0%;
+}
+
+.behance {
+	background: rgba(63,122,163,.7);
+	bottom: 0;
+	left: 75%;
+}
+
+.linked-in {
+	background: rgba(21,127,157,.7);
+	left: 100%;
+	top: 0%;
+}

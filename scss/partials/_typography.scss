@@ -1,0 +1,100 @@
+// Typography
+
+	h1, h2, h3, h4, h5, h6 {
+		color: #ededed;
+		font-family: 'Montserrat', sans-serif;
+		text-align:center;
+		font-weight:700;
+	}
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+	h1 { font-size: 50px; line-height:50px;text-transform:uppercase; }
+	h2 { font-size: 42px; line-height:46px;text-transform:uppercase;}
+	h3 { font-size: 38px; line-height: 42px;text-transform:capitalize;}
+	h4 { font-size: 34px; line-height: 38px;text-transform:uppercase;}
+	h5 { font-size: 26px; line-height: 32px;text-transform:capitalize;}
+	h6 { font-size: 20px; line-height: 24px;text-transform:capitalize;
+		font-weight:400;}
+		
+	section {
+		h1, h2, h3, h4, h5 {
+			color: #4a3d3d;
+		}
+		h6 {
+			color: $c-grey-light;
+		}
+	}
+
+.subheader {
+	color: #7a7a7a; 
+	background:url('../images/plus.png') no-repeat center top;
+	text-align:center;
+	font-style: italic;
+	font-size: 26px;
+	line-height: 30px;
+	padding-top:20px;
+	padding-bottom:50px;
+}
+
+	p {
+		font-size: 18px;
+		line-height: 28px;
+		margin-bottom: 25px;
+	}
+	p img { margin: 0; }
+	p.lead { font-size: 21px; line-height: 27px; color: #777;  }
+
+	em { font-style: italic; }
+	strong { font-weight: 600;}
+	small { font-size: 80%; }
+	
+.dropcap {
+	float: left;
+	font-weight:bold;
+	line-height: 0.95;
+	font-size: 420%;
+	margin-right: 10px;
+	color: #292929;
+}	
+.dropcap-red {
+	float: left;
+	font-weight:bold;
+	line-height: 0.95;
+	font-size: 400%;
+	margin-right: 10px;
+	color: #EB767E;
+}	
+.dropcap-orange-circle {
+	float: left;
+	font-weight:800;
+	line-height: 66px;
+	font-size: 44px;
+	border-radius:50%;
+	background:#292929;
+	height:66px;
+	width:66px;
+	text-align:center;
+	margin-right: 10px;
+	color: #e74c3c;
+}
+
+/* ----------- Links ----------- */
+a {
+	@include transition(0.2s);
+	text-decoration: none;
+	color: $c-red;
+	&:visited {
+		text-decoration: none;
+		color: $c-red-dark;
+	}
+	&:hover,
+	&:focus {
+		color: $c-grey;
+	}
+}
+
+p a {
+	border-bottom: 1px dotted $c-red;
+	&:visited {
+		border-color: $c-red-dark;
+	}
+}
