@@ -5,7 +5,8 @@ include('dep/top.php');
 
 <div class="wrapper">
 	
-	 <div class="menu-btn" id="trigger-overlay" type="button"></div>	
+	 <div class="menu-btn" id="trigger-overlay" type="button"></div>
+	 <div class="logo"></div>
 	
 	 <div class="main">
 		  
@@ -13,7 +14,6 @@ include('dep/top.php');
 	 <section id="home">
 		 <div class="just_pattern" ></div>
 		 
-		 <div class="logo"></div>
 		 <div class="home-content">
 			<div class="big-text big-text-center">Your HR Team</div>
 			<div class="small-text small-text-center" data-typer-targets='{ "targets" : ["Dedicated to our clients.","Your trusted strategic HR business partner.","Identify opportunities.","Let us be your HR team."]}' >Dedicated to our clients.</div>
