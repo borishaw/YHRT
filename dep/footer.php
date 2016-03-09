@@ -45,6 +45,8 @@
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
 	<script type="text/javascript" src="js/jquery.fs.tipper.min.js"></script>
 
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
 <?php } ?>
 
 	<script type="text/javascript"> 

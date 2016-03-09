@@ -26,6 +26,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
 
 	<!-- CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
 	<link rel="stylesheet" href="css/main.css"/>
 	
 	<?php if($active=='about'){ ?>
@@ -49,6 +50,7 @@
 	<!-- Primary Page Layout -->
 
  		<div class="overlay overlay-contentscale">
+		 <div class="just_pattern" ></div>
 		
 			<div class="logo1"></div>
 		
@@ -57,9 +59,8 @@
 				<ul>
 					<li><a href="index.php">Home</a></li>
 					<li><a href="about.php">About</a></li>
-					<li><a href="whatwedo.php">What We Do</a></li>
 					<li><a href="services.php">Services</a></li>
-					<li><a href="index.php#5">Contact</a></li>
+					<li><a href="index.php#4">Contact</a></li>
 				</ul>
 			</nav>
 			

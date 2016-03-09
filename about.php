@@ -13,12 +13,8 @@ include('dep/top.php');
 		<div class="logo"></div>	
 				
 		<div id="sep1">
-			<div class="parallax7"></div>
-			<div class="container z-index">
-				<div class="sixteen columns" data-scrollreveal="enter top and move 150px over 2s">
-					<h1>About us</h1>
-				</div>
-			</div>
+			<img src="images/icons/icon-about.png" alt="Lightbulb Icon" />
+			<h1>About us</h1>
 		</div>	
 
 		<div class="clear"></div>
@@ -26,7 +22,7 @@ include('dep/top.php');
 		<section>
 			<div class="container">
 				<div class="sixteen column" data-scrollreveal="enter left and move 150px over 2s">
-					<p>Your HR Team is a boutique style Human Resource consulting firm that enables organizations to drive business success by focusing on their most valuable investment, "Their People". </p> 
+					<p class="highlight">Your HR Team is a boutique style Human Resource consulting firm that enables organizations to drive business success by focusing on their most valuable investment, "Their People". </p> 
 					<p>Our mission is simple, we want our clients to become an "Employer of Choice". Building a strong company brand will attract, retain and engage employees to increase productivity and revenue. </p>
 					<p>What sets <strong>Your HR Team</strong> apart from others is our dedication to our clients.  We tailor our services to your priorities and schedules.  Our team of dedicated, business savvy consultants are always ready to go the extra mile to better understand your strategic needs.  We utilize your information to create cost effective solutions in a timely manner. </p>
 					<p>We are committed to being your trusted strategic HR Business Partner - focused on providing you with people solutions to maximize your profits.  Call us today for a free consultation at <a href="tel:+16479884674">647-988-4674</a> or email at <a href="mailto:info@yourhrteam.ca">info@yourhrteam.ca</a> and <strong>let us be Your HR Team.</strong></p>
@@ -46,7 +42,7 @@ include('dep/top.php');
 				<div class="six columns" data-scrollreveal="enter left and move 150px over 1s">
 					<div class="team-img">
 						<div class="team-img-in">
-							<img  src="images/team/03.jpg" alt="" />	
+							<img  src="images/team/gurpreet.jpg" alt="" />	
 						</div>
 					</div>
 				</div>
@@ -90,13 +86,12 @@ include('dep/top.php');
 		<div class="clear"></div>
 		
 		<div id="skill">
-			<div class="parallax8"></div>
 			<div class="color-background-services"></div>
 			<div class="container z-index">
 				<div class="sixteen columns" data-scrollreveal="enter bottom and move 150px over 1s">
 					<h2><i class="fa fa-star-o"></i></h2>
 					<p>We believe employee success drives growth and prosperity.  By becoming Your HR Team, we can help you identify development opportunities in your People Strategy and provide you with cost-effective tailored solutions to take your success to the next level.</p>
-					<div class="link1" data-scrollreveal="enter bottom and move 150px over 2s"><div class="cl-effect-20"><a href="whatwedo.php"><span data-hover="What We Do">Find out more</span></a></div></div>	
+					<div class="link1" data-scrollreveal="enter bottom and move 150px over 2s"><div class="cl-effect-20"><a href="services.php"><span data-hover="Services">Find out more</span></a></div></div>	
 				</div>
 			</div>
 		</div>

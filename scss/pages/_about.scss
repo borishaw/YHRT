@@ -15,9 +15,7 @@
 	text-align:left;
 }
 .parallax7 {
-	background: url('../images/bg/header-bg-01.jpg') repeat fixed;
-	background-size: cover;
-	position: absolute;
+	
 	top: 0; 
 	left: 0; 
 	right: 0;
@@ -39,33 +37,31 @@
 	position: relative; 
 	margin: 0 auto;
 	width: 100%;
-	padding-top:70px;
+	padding-top:100px;
 	padding-bottom:70px;
 	overflow:hidden;
 	z-index:2;
 	text-align: center;
+	background: url('../images/bg/header-bg-04.jpg') no-repeat center;
+	background-size: cover;
 	h2 {
-		color: #4a3d3d;
+		color: #fff;
 		padding-bottom:20px;
+		text-shadow: 0 0 10px rgb(0, 0, 0);
 	}
-	p:last-child {
-		padding-bottom:0;
+	p {
+		color: #fff;
+		text-shadow: 0 0 10px rgb(0, 0, 0);
+		font-weight: 700;
+		&:last-child {
+			padding-bottom:0;
+		}
 	}
 	.link1 {
 		text-align: center;
 	}
 }
-.parallax8 {
-	background: url('../images/index/home-02-01.jpg') repeat fixed;
-	background-size: cover;
-	position: absolute;
-	top: 0; 
-	left: 0; 
-	right: 0;
-	bottom: 0;
-	z-index: -1;
-	width:100%;
-}
+
 
 @media only screen and (min-width: 1930px) { .parallax8 { background-size: cover; } }
  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
@@ -197,7 +193,7 @@
 .team-img{
 	position: relative; 
 	margin: 0 auto;
-	background:#776045;
+	background: $c-red;
 	padding-top:10px;
 	padding-bottom:10px;
 	padding-left:10px;
@@ -539,38 +535,37 @@
 	.tipper.bottom .tipper-caret { background-position: center top; top: -5px; left: 0; }
 
 
-
-
-
-
-#sep1 h1{
-	text-align:center;
-	color:#fff;
-	z-index:20;
-	text-shadow: 0 0 10px rgba(0,0,0,0.2);
-}
-#sep1 .sub-font{
-	font-family: 'Lato', sans-serif;
-	text-align:center;
-	text-transform:uppercase;
-	font-weight:400;
-	font-size: 15px; 
-	line-height:15px;
-	color: #e1dcdc;
-	height:15px;
-}
-#sep1 .z-index{
-	z-index:2000;
-}
 #sep1{
 	position:relative;
 	display:block;
 	width:100%;
 	overflow:hidden;
-	padding-top:100px;
-	padding-bottom:100px;
+	padding: 50px 0;
 	z-index:2;
+	background: url('../images/bg/header-bg-03.jpg') no-repeat;
+	background-size: cover;
+	text-align:center;
+	h1{
+		color:$c-grey;
+		text-shadow: 0 0 10px rgba(#ffffff,0.2);
+	}
+	.sub-font{
+		font-family: 'Lato', sans-serif;
+		text-align:center;
+		text-transform:uppercase;
+		font-weight:400;
+		font-size: 15px; 
+		line-height:22px;
+		color: $c-red;
+		margin: 0 auto;
+		max-width: 600px;
+	}
+	.z-index{
+		z-index:2000;
+	}
 }
+
+
 .parallax1 {
 	background: url('../images/8.jpg') repeat fixed;
 	background-size: cover;

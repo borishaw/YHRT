@@ -46,8 +46,8 @@
 
                  images:[
                  "images/bg/bg-06.jpg",
-                 "images/bg/bg-05.jpg",
-                 "images/bg/bg-03.jpg"
+                 "images/bg/bg-17.jpg",
+                 "images/bg/bg-16.jpg"
                  ],
 
                 onStart:function(){},

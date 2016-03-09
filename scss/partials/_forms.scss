@@ -29,6 +29,7 @@
 		padding-top: 5px;
 		padding-bottom: 5px;
 		border:none;
+		resize: vertical;
 	}
 	.error {
 		font: 12px/22px 'Open Sans', sans-serif;
@@ -64,7 +65,7 @@
 	font-size: 13px;
 	line-height:40px;
 	color:#fff;
-	background: rgba(168,197,69,1);
+	background: $c-red;
 	text-transform:uppercase;
  }
 #button-con button:hover{

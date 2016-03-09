@@ -5,11 +5,11 @@
 ================================================== */
 .social a[class*="entypo-"]:before {
 	font-family: 'entypo', sans-serif;
-	font-size:14px;
+	font-size:21px;
 }
 .social-wrap {
-	height: 23px;
-	right: 50px;
+	height: 50px;
+	right: 80px;
 	top:50px;
 	position: absolute;
 	width: 90px;
@@ -26,8 +26,8 @@
 
 .social li {
 	display: block;
-	height: 30px;
-	line-height: 30px;
+	height: 50px;
+	line-height: 50px;
 	margin: -15px;
 	position: absolute;
 	-webkit-transform: rotate(45deg);
@@ -36,14 +36,14 @@
 	-o-transform: rotate(45deg);
 	transform: rotate(45deg);
 	text-align: center;
-	width: 30px;
+	width: 50px;
 }
 
 .social li a {
 	color: #fffdf0;
 	display: block;
-	height: 30px;
-	line-height: 30px;
+	height: 50px;
+	line-height: 45px;
 	text-align: center;
 	-webkit-transition: -webkit-transform .5s;
 	-moz-transition: -moz-transform .5s;
@@ -55,7 +55,7 @@
 	-ms-transform: rotate(-45deg);
 	-o-transform: rotate(-45deg);
 	transform: rotate(-45deg);
-	width: 30px;	
+	width: 50px;	
 }
 
 .social li:hover a{
@@ -68,7 +68,7 @@
 
 .facebook {
 	background: rgba(21,91,157,.7);
-	left: 50%;
+	left: 20%;
 	top: 0%;
 }
 

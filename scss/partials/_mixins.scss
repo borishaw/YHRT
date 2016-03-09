@@ -1,7 +1,11 @@
 // Mixins and Variables
 
-$c-red: #c5232d;
-$c-grey: #2a2a2a;
+$c-red: #c5232d; //rgba(197, 35, 45, 100)
+$c-grey: #2a2a2a; //rgba(42, 42, 42, 100)
+$c-black: #231c07; //rgba(35, 28, 7, 100)
+$c-offwhite: #fff8f0; //rgba(255, 248, 240, 100)
+$c-mint: #79b791; //rgba(121, 183, 145, 100)
+
 
 $c-red-dark: darken($c-red, 15%);
 $c-grey-light: #7a7a7a;
