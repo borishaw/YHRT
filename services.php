@@ -267,7 +267,7 @@ include('dep/top.php');
 				<div class="sixteen columns" data-scrollreveal="enter bottom and move 150px over 1s">
 					<h2><i class="fa fa-star-o"></i></h2>
 					<p>We would love to hear from you. If you have any questions about our services and are interested in a complimentary consultation regarding what we can do for your business, please contact us today.</p>
-					<div class="link1" data-scrollreveal="enter bottom and move 150px over 2s"><div class="cl-effect-20"><a href="http://localhost:8888/ankit/yhrt2/index.php#5"><span data-hover="Contact Us">Take the next step</span></a></div></div>	
+					<div class="link1" data-scrollreveal="enter bottom and move 150px over 2s"><div class="cl-effect-20"><a href="index.php#4"><span data-hover="Contact Us">Take the next step</span></a></div></div>	
 				</div>
 			</div>
 		</div>
