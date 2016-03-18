@@ -89,11 +89,11 @@ include('dep/top.php');
 							<div class="cbp-ntcontent">
 								<ul class="cbp-ntsubaccordion">
 									<li>
-										<h4 class="cbp-nttrigger">Why Hire Me?</h4>
+										<h4 class="cbp-nttrigger">#WhyHireMe?</h4>
 										<div class="cbp-ntcontent">
-											<p>We help you answer the question, Why hire me?</p>
+											<p>We help you answer the question, #WhyHireMe?</p>
 											<p>When it comes to filling a role, the main question every employer has is "Why should I hire this candidate"?  </p>
-											<p>#Why Hire Me? Is a service that is geared towards helping you build a brand that tells employers why they should hire you. Here's what our service includes:</p>
+											<p>#WhyHireMe? Is a service that is geared towards helping you build a brand that tells employers why they should hire you. Here's what our service includes:</p>
 											<ul>
 												<li>Resume  (we also do video resumes to show case the individual on our website to  get exposure to potential employers as to why they should be hiring this person right now! </li>
 												<li>LinkedIn</li>
@@ -183,11 +183,11 @@ include('dep/top.php');
 							<div class="cbp-ntcontent">
 								<ul class="cbp-ntsubaccordion">
 									<li>
-										<h4 class="cbp-nttrigger">Why Hire Me?</h4>
+										<h4 class="cbp-nttrigger">#WhyHireMe?</h4>
 										<div class="cbp-ntcontent">
-											<p>We help you answer the question, Why hire me?</p>
+											<p>We help you answer the question, #WhyHireMe?</p>
 											<p>When it comes to filling a role, the main question every employer has is "Why should I hire this candidate"?  </p>
-											<p>#Why Hire Me? Is a service that is geared towards helping you build a brand that tells employers why they should hire you. Here's what our service includes:</p>
+											<p>#WhyHireMe? Is a service that is geared towards helping you build a brand that tells employers why they should hire you. Here's what our service includes:</p>
 											<ul>
 												<li>Resume  (we also do video resumes to show case the individual on our website to  get exposure to potential employers as to why they should be hiring this person right now! </li>
 												<li>LinkedIn</li>

@@ -1720,123 +1720,124 @@ p.highlight {
   background: url("../images/arrow-down.png") no-repeat center bottom;
   z-index: 3900;
   opacity: .6;
+  cursor: pointer;
 }
 
 @keyframes arrows {
-  /* line 123, ../scss/pages/_home.scss */
+  /* line 124, ../scss/pages/_home.scss */
   0% {
     bottom: 40px;
   }
 
-  /* line 124, ../scss/pages/_home.scss */
+  /* line 125, ../scss/pages/_home.scss */
   10% {
     bottom: 50px;
   }
 
-  /* line 125, ../scss/pages/_home.scss */
+  /* line 126, ../scss/pages/_home.scss */
   20% {
     bottom: 40px;
   }
 
-  /* line 126, ../scss/pages/_home.scss */
+  /* line 127, ../scss/pages/_home.scss */
   30% {
     bottom: 50px;
   }
 
-  /* line 127, ../scss/pages/_home.scss */
+  /* line 128, ../scss/pages/_home.scss */
   40% {
     bottom: 30px;
   }
 
-  /* line 128, ../scss/pages/_home.scss */
+  /* line 129, ../scss/pages/_home.scss */
   50% {
     bottom: 50px;
   }
 
-  /* line 129, ../scss/pages/_home.scss */
+  /* line 130, ../scss/pages/_home.scss */
   60% {
     bottom: 40px;
   }
 
-  /* line 130, ../scss/pages/_home.scss */
+  /* line 131, ../scss/pages/_home.scss */
   70% {
     bottom: 50px;
   }
 
-  /* line 131, ../scss/pages/_home.scss */
+  /* line 132, ../scss/pages/_home.scss */
   80% {
     bottom: 30px;
   }
 
-  /* line 132, ../scss/pages/_home.scss */
+  /* line 133, ../scss/pages/_home.scss */
   90% {
     bottom: 50px;
   }
 
-  /* line 133, ../scss/pages/_home.scss */
+  /* line 134, ../scss/pages/_home.scss */
   100% {
     bottom: 40px;
   }
 }
 
 @-webkit-keyframes arrows {
-  /* line 136, ../scss/pages/_home.scss */
+  /* line 137, ../scss/pages/_home.scss */
   0% {
     bottom: 40px;
   }
 
-  /* line 137, ../scss/pages/_home.scss */
+  /* line 138, ../scss/pages/_home.scss */
   10% {
     bottom: 50px;
   }
 
-  /* line 138, ../scss/pages/_home.scss */
+  /* line 139, ../scss/pages/_home.scss */
   20% {
     bottom: 40px;
   }
 
-  /* line 139, ../scss/pages/_home.scss */
+  /* line 140, ../scss/pages/_home.scss */
   30% {
     bottom: 50px;
   }
 
-  /* line 140, ../scss/pages/_home.scss */
+  /* line 141, ../scss/pages/_home.scss */
   40% {
     bottom: 30px;
   }
 
-  /* line 141, ../scss/pages/_home.scss */
+  /* line 142, ../scss/pages/_home.scss */
   50% {
     bottom: 50px;
   }
 
-  /* line 142, ../scss/pages/_home.scss */
+  /* line 143, ../scss/pages/_home.scss */
   60% {
     bottom: 40px;
   }
 
-  /* line 143, ../scss/pages/_home.scss */
+  /* line 144, ../scss/pages/_home.scss */
   70% {
     bottom: 50px;
   }
 
-  /* line 144, ../scss/pages/_home.scss */
+  /* line 145, ../scss/pages/_home.scss */
   80% {
     bottom: 30px;
   }
 
-  /* line 145, ../scss/pages/_home.scss */
+  /* line 146, ../scss/pages/_home.scss */
   90% {
     bottom: 50px;
   }
 
-  /* line 146, ../scss/pages/_home.scss */
+  /* line 147, ../scss/pages/_home.scss */
   100% {
     bottom: 40px;
   }
 }
 
-/* line 149, ../scss/pages/_home.scss */
+/* line 150, ../scss/pages/_home.scss */
 .scroll-btn {
   -webkit-animation: arrows 3.8s infinite;
   -webkit-animation-delay: 1s;
@@ -1844,7 +1845,7 @@ p.highlight {
   animation-delay: 1s;
 }
 
-/* line 156, ../scss/pages/_home.scss */
+/* line 157, ../scss/pages/_home.scss */
 .wrapper {
   position: relative;
   height: 100% !important;
@@ -1853,14 +1854,14 @@ p.highlight {
   overflow: hidden;
 }
 
-/* line 163, ../scss/pages/_home.scss */
+/* line 164, ../scss/pages/_home.scss */
 .main {
   position: relative;
   width: 100%;
   margin: 0 auto;
 }
 
-/* line 170, ../scss/pages/_home.scss */
+/* line 171, ../scss/pages/_home.scss */
 .onepage-wrapper {
   display: block;
   padding: 0;
@@ -1868,7 +1869,7 @@ p.highlight {
   height: 100%;
 }
 
-/* line 177, ../scss/pages/_home.scss */
+/* line 178, ../scss/pages/_home.scss */
 .onepage-wrapper {
   width: 100%;
   height: 100%;
@@ -1878,13 +1879,13 @@ p.highlight {
   -webkit-transform-style: preserve-3d;
 }
 
-/* line 186, ../scss/pages/_home.scss */
+/* line 187, ../scss/pages/_home.scss */
 .onepage-wrapper .section {
   width: 100%;
   height: 100%;
 }
 
-/* line 191, ../scss/pages/_home.scss */
+/* line 192, ../scss/pages/_home.scss */
 .onepage-pagination {
   position: absolute;
   right: 20px;
@@ -1895,13 +1896,13 @@ p.highlight {
   padding: 0;
 }
 
-/* line 200, ../scss/pages/_home.scss */
+/* line 201, ../scss/pages/_home.scss */
 .onepage-pagination li {
   padding: 0;
   text-align: center;
 }
 
-/* line 204, ../scss/pages/_home.scss */
+/* line 205, ../scss/pages/_home.scss */
 .onepage-pagination li a {
   padding: 10px;
   width: 4px;
@@ -1909,7 +1910,7 @@ p.highlight {
   display: block;
 }
 
-/* line 211, ../scss/pages/_home.scss */
+/* line 212, ../scss/pages/_home.scss */
 .onepage-pagination li a:before {
   content: '';
   position: absolute;
@@ -1921,7 +1922,7 @@ p.highlight {
   -moz-border-radius: 20px;
 }
 
-/* line 222, ../scss/pages/_home.scss */
+/* line 223, ../scss/pages/_home.scss */
 .onepage-pagination li a.active:before {
   width: 20px;
   height: 20px;
@@ -1931,18 +1932,18 @@ p.highlight {
   left: 3px;
 }
 
-/* line 231, ../scss/pages/_home.scss */
+/* line 232, ../scss/pages/_home.scss */
 .disabled-onepage-scroll, .disabled-onepage-scroll .wrapper {
   overflow: auto;
 }
 
-/* line 235, ../scss/pages/_home.scss */
+/* line 236, ../scss/pages/_home.scss */
 .disabled-onepage-scroll .onepage-wrapper .section {
   position: relative !important;
   top: auto !important;
 }
 
-/* line 239, ../scss/pages/_home.scss */
+/* line 240, ../scss/pages/_home.scss */
 .disabled-onepage-scroll .onepage-wrapper {
   -webkit-transform: none !important;
   -moz-transform: none !important;
@@ -1951,24 +1952,24 @@ p.highlight {
   min-height: 100%;
 }
 
-/* line 248, ../scss/pages/_home.scss */
+/* line 249, ../scss/pages/_home.scss */
 .disabled-onepage-scroll .onepage-pagination {
   display: none;
 }
 
-/* line 252, ../scss/pages/_home.scss */
+/* line 253, ../scss/pages/_home.scss */
 body.disabled-onepage-scroll, .disabled-onepage-scroll .onepage-wrapper, html {
   position: inherit;
 }
 
-/* line 256, ../scss/pages/_home.scss */
+/* line 257, ../scss/pages/_home.scss */
 body.disabled-onepage-scroll .onepage-wrapper section {
   min-height: 100%;
   height: auto;
 }
 
 /* Section Styles */
-/* line 264, ../scss/pages/_home.scss */
+/* line 265, ../scss/pages/_home.scss */
 .big-text {
   font-family: 'Montserrat', sans-serif;
   text-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
@@ -1979,23 +1980,23 @@ body.disabled-onepage-scroll .onepage-wrapper section {
   line-height: 50px;
   color: #2a2a2a;
 }
-/* line 273, ../scss/pages/_home.scss */
+/* line 274, ../scss/pages/_home.scss */
 .big-text.big-text-center {
   font-size: 70px;
   line-height: 70px;
   color: #c5232d;
   text-align: center;
 }
-/* line 279, ../scss/pages/_home.scss */
+/* line 280, ../scss/pages/_home.scss */
 .big-text.big-text-section {
   padding-bottom: 20px;
 }
-/* line 281, ../scss/pages/_home.scss */
+/* line 282, ../scss/pages/_home.scss */
 .big-text.big-text-section span {
   border-bottom: 1px dashed #79b791;
 }
 
-/* line 288, ../scss/pages/_home.scss */
+/* line 289, ../scss/pages/_home.scss */
 .small-text {
   font-family: 'Lato', sans-serif;
   text-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
@@ -2005,23 +2006,23 @@ body.disabled-onepage-scroll .onepage-wrapper section {
   color: #2a2a2a;
   margin-bottom: 0;
 }
-/* line 296, ../scss/pages/_home.scss */
+/* line 297, ../scss/pages/_home.scss */
 .small-text.small-text-center {
   text-align: center;
   font-size: 20px;
   text-transform: uppercase;
   line-height: 26px;
 }
-/* line 302, ../scss/pages/_home.scss */
+/* line 303, ../scss/pages/_home.scss */
 .small-text.small-text-right {
   text-align: right;
 }
-/* line 305, ../scss/pages/_home.scss */
+/* line 306, ../scss/pages/_home.scss */
 .small-text.small-text-bottom-right {
   text-align: right;
 }
 
-/* line 312, ../scss/pages/_home.scss */
+/* line 313, ../scss/pages/_home.scss */
 .link1 {
   text-transform: uppercase;
   text-align: right;
@@ -2031,7 +2032,7 @@ body.disabled-onepage-scroll .onepage-wrapper section {
   color: #fff;
   margin-top: 15px;
 }
-/* line 320, ../scss/pages/_home.scss */
+/* line 321, ../scss/pages/_home.scss */
 .link1 a {
   position: relative;
   display: inline-block;
@@ -2044,12 +2045,12 @@ body.disabled-onepage-scroll .onepage-wrapper section {
   font-weight: 400;
   font-size: 13px;
 }
-/* line 331, ../scss/pages/_home.scss */
+/* line 332, ../scss/pages/_home.scss */
 .link1 a:hover, .link1 a:focus {
   outline: none;
 }
 
-/* line 337, ../scss/pages/_home.scss */
+/* line 338, ../scss/pages/_home.scss */
 .cl-effect-20 a {
   line-height: 2em;
   -webkit-perspective: 800px;
@@ -2057,7 +2058,7 @@ body.disabled-onepage-scroll .onepage-wrapper section {
   perspective: 800px;
 }
 
-/* line 344, ../scss/pages/_home.scss */
+/* line 345, ../scss/pages/_home.scss */
 .cl-effect-20 a span {
   position: relative;
   display: inline-block;
@@ -2080,7 +2081,7 @@ body.disabled-onepage-scroll .onepage-wrapper section {
   transform-origin: 0% 50%;
 }
 
-/* line 366, ../scss/pages/_home.scss */
+/* line 367, ../scss/pages/_home.scss */
 .cl-effect-20 a span::before {
   position: absolute;
   border-bottom-left-radius: 5px;
@@ -2107,13 +2108,13 @@ body.disabled-onepage-scroll .onepage-wrapper section {
   pointer-events: none;
 }
 
-/* line 393, ../scss/pages/_home.scss */
+/* line 394, ../scss/pages/_home.scss */
 .cl-effect-20 a:hover span,
 .cl-effect-20 a:focus span {
   background: #3b3e45;
 }
 
-/* line 398, ../scss/pages/_home.scss */
+/* line 399, ../scss/pages/_home.scss */
 .cl-effect-20 a:hover span::before,
 .cl-effect-20 a:focus span::before {
   -webkit-transform: rotateX(10deg);
@@ -2122,7 +2123,7 @@ body.disabled-onepage-scroll .onepage-wrapper section {
 }
 
 /* Home */
-/* line 406, ../scss/pages/_home.scss */
+/* line 407, ../scss/pages/_home.scss */
 .home-content {
   position: absolute;
   top: 50%;
@@ -2133,7 +2134,7 @@ body.disabled-onepage-scroll .onepage-wrapper section {
 }
 
 /* About */
-/* line 417, ../scss/pages/_home.scss */
+/* line 418, ../scss/pages/_home.scss */
 #about {
   position: relative;
   margin: 0 auto;
@@ -2143,7 +2144,7 @@ body.disabled-onepage-scroll .onepage-wrapper section {
   z-index: 2;
 }
 
-/* line 426, ../scss/pages/_home.scss */
+/* line 427, ../scss/pages/_home.scss */
 .about-content {
   position: absolute;
   bottom: 50px;
@@ -2154,17 +2155,17 @@ body.disabled-onepage-scroll .onepage-wrapper section {
   padding: 30px;
   background-color: rgba(255, 255, 255, 0.7);
 }
-/* line 435, ../scss/pages/_home.scss */
+/* line 436, ../scss/pages/_home.scss */
 .about-content .big-text {
   text-align: left;
 }
-/* line 438, ../scss/pages/_home.scss */
+/* line 439, ../scss/pages/_home.scss */
 .about-content .link1 {
   text-align: left;
 }
 
 /* What We Do */
-/* line 446, ../scss/pages/_home.scss */
+/* line 447, ../scss/pages/_home.scss */
 #whatwedo {
   position: relative;
   margin: 0 auto;
@@ -2175,7 +2176,7 @@ body.disabled-onepage-scroll .onepage-wrapper section {
   z-index: 2;
 }
 
-/* line 456, ../scss/pages/_home.scss */
+/* line 457, ../scss/pages/_home.scss */
 .whatwedo-content {
   position: absolute;
   bottom: 50px;
@@ -2186,7 +2187,7 @@ body.disabled-onepage-scroll .onepage-wrapper section {
 }
 
 /* Services */
-/* line 469, ../scss/pages/_home.scss */
+/* line 470, ../scss/pages/_home.scss */
 #services {
   position: relative;
   margin: 0 auto;
@@ -2197,7 +2198,7 @@ body.disabled-onepage-scroll .onepage-wrapper section {
   z-index: 2;
 }
 
-/* line 479, ../scss/pages/_home.scss */
+/* line 480, ../scss/pages/_home.scss */
 .services-content {
   position: absolute;
   top: 50px;
@@ -2210,7 +2211,7 @@ body.disabled-onepage-scroll .onepage-wrapper section {
 }
 
 /* Contact */
-/* line 495, ../scss/pages/_home.scss */
+/* line 496, ../scss/pages/_home.scss */
 #contact {
   position: relative;
   margin: 0 auto;
@@ -2220,17 +2221,17 @@ body.disabled-onepage-scroll .onepage-wrapper section {
   z-index: 2;
 }
 
-/* line 505, ../scss/pages/_home.scss */
+/* line 506, ../scss/pages/_home.scss */
 section#contact .onepage-pagination li a:before {
   background: rgba(0, 0, 0, 0.85);
 }
 
-/* line 508, ../scss/pages/_home.scss */
+/* line 509, ../scss/pages/_home.scss */
 section#contact .onepage-pagination li a.active:before {
   border: 1px solid black;
 }
 
-/* line 515, ../scss/pages/_home.scss */
+/* line 516, ../scss/pages/_home.scss */
 #map {
   position: relative;
   display: block;
@@ -2240,7 +2241,7 @@ section#contact .onepage-pagination li a.active:before {
   height: 100%;
 }
 
-/* line 523, ../scss/pages/_home.scss */
+/* line 524, ../scss/pages/_home.scss */
 .overlay1 {
   display: block;
   z-index: 10;
@@ -2251,7 +2252,7 @@ section#contact .onepage-pagination li a.active:before {
   background-size: 80px 60px;
 }
 
-/* line 532, ../scss/pages/_home.scss */
+/* line 533, ../scss/pages/_home.scss */
 .overlay_arrow1 {
   left: 50%;
   margin-left: -16px;
@@ -2260,7 +2261,7 @@ section#contact .onepage-pagination li a.active:before {
   position: absolute;
 }
 
-/* line 539, ../scss/pages/_home.scss */
+/* line 540, ../scss/pages/_home.scss */
 .overlay_arrow1.above {
   bottom: -13px;
   border-left: 16px solid transparent;
@@ -2268,7 +2269,7 @@ section#contact .onepage-pagination li a.active:before {
   border-top: 16px solid #000;
 }
 
-/* line 545, ../scss/pages/_home.scss */
+/* line 546, ../scss/pages/_home.scss */
 .overlay_arrow1.below {
   top: -15px;
   border-left: 16px solid transparent;
@@ -2276,7 +2277,7 @@ section#contact .onepage-pagination li a.active:before {
   border-bottom: 16px solid #000;
 }
 
-/* line 553, ../scss/pages/_home.scss */
+/* line 554, ../scss/pages/_home.scss */
 .contact-content {
   position: absolute;
   width: 50%;
@@ -2286,7 +2287,7 @@ section#contact .onepage-pagination li a.active:before {
   z-index: 10;
 }
 
-/* line 562, ../scss/pages/_home.scss */
+/* line 563, ../scss/pages/_home.scss */
 .contact-cta {
   padding-bottom: 20px;
   font-weight: 700;
@@ -2295,7 +2296,7 @@ section#contact .onepage-pagination li a.active:before {
   margin-bottom: 0;
 }
 
-/* line 570, ../scss/pages/_home.scss */
+/* line 571, ../scss/pages/_home.scss */
 .contact-wrap {
   background: #DADADA;
   overflow: hidden;
@@ -2304,7 +2305,7 @@ section#contact .onepage-pagination li a.active:before {
   color: #2a2a2a;
 }
 
-/* line 577, ../scss/pages/_home.scss */
+/* line 578, ../scss/pages/_home.scss */
 .contact-wrap .contact-us {
   font-size: 14px;
   line-height: 50px;
@@ -2323,12 +2324,12 @@ section#contact .onepage-pagination li a.active:before {
   transition: all 300ms linear;
 }
 
-/* line 594, ../scss/pages/_home.scss */
+/* line 595, ../scss/pages/_home.scss */
 .contact-wrap .contact-us:hover {
   background: #84171e;
 }
 
-/* line 597, ../scss/pages/_home.scss */
+/* line 598, ../scss/pages/_home.scss */
 .contact-wrap p {
   text-align: left;
   padding-top: 5px;
@@ -2337,12 +2338,12 @@ section#contact .onepage-pagination li a.active:before {
   margin-bottom: 0;
 }
 
-/* line 605, ../scss/pages/_home.scss */
+/* line 606, ../scss/pages/_home.scss */
 .contact-wrap a:hover {
   color: #2a2a2a;
 }
 
-/* line 609, ../scss/pages/_home.scss */
+/* line 610, ../scss/pages/_home.scss */
 .contact-wrap a.modal-link:hover {
   text-decoration: none;
 }
@@ -2721,18 +2722,16 @@ section#contact .onepage-pagination li a.active:before {
 
 /* line 296, ../scss/pages/_about.scss */
 .team-info1 h6 {
-  text-align: right;
   color: #4a3d3d;
   padding-bottom: 5px;
 }
 
-/* line 301, ../scss/pages/_about.scss */
+/* line 300, ../scss/pages/_about.scss */
 .team-subtext1 {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 12px;
-  text-align: right;
   color: #4a3d3d;
   opacity: .4;
   font-style: italic;
@@ -2740,18 +2739,12 @@ section#contact .onepage-pagination li a.active:before {
 }
 
 /* line 312, ../scss/pages/_about.scss */
-.team-info1 p {
-  text-align: right;
-}
-
-/* line 315, ../scss/pages/_about.scss */
 .social-team1 {
   position: relative;
-  text-align: right;
   width: 100%;
 }
 
-/* line 320, ../scss/pages/_about.scss */
+/* line 316, ../scss/pages/_about.scss */
 .team-social1 li {
   margin: 0 auto;
   list-style: none;
@@ -2760,7 +2753,7 @@ section#contact .onepage-pagination li a.active:before {
   cursor: pointer;
 }
 
-/* line 328, ../scss/pages/_about.scss */
+/* line 324, ../scss/pages/_about.scss */
 .team-social1 li.icon-team1 a {
   font-family: 'FontAwesome';
   font-size: 16px;
@@ -2775,7 +2768,7 @@ section#contact .onepage-pagination li a.active:before {
   transition: all 300ms linear;
 }
 
-/* line 341, ../scss/pages/_about.scss */
+/* line 337, ../scss/pages/_about.scss */
 .team-social1 li.icon-team1 a:after {
   content: '::';
   font-family: 'Lato', sans-serif;
@@ -2787,24 +2780,24 @@ section#contact .onepage-pagination li a.active:before {
   opacity: .8;
 }
 
-/* line 351, ../scss/pages/_about.scss */
+/* line 347, ../scss/pages/_about.scss */
 .team-social1 li:last-child.icon-team1 a:after {
   display: none;
 }
 
-/* line 356, ../scss/pages/_about.scss */
+/* line 352, ../scss/pages/_about.scss */
 .team-social1 li:hover.icon-team1 a {
   opacity: .6;
 }
 
 /* DIRECTION CONTROLS (NEXT / PREV) */
-/* line 363, ../scss/pages/_about.scss */
+/* line 359, ../scss/pages/_about.scss */
 .bx-wrapper {
   position: relative;
   width: 100%;
 }
 
-/* line 367, ../scss/pages/_about.scss */
+/* line 363, ../scss/pages/_about.scss */
 .bx-wrapper .bx-prev {
   left: 50%;
   margin-left: -35px;
@@ -2817,7 +2810,7 @@ section#contact .onepage-pagination li a.active:before {
   transition: all 0.2s ease-out;
 }
 
-/* line 379, ../scss/pages/_about.scss */
+/* line 375, ../scss/pages/_about.scss */
 .bx-wrapper .bx-next {
   right: 50%;
   margin-right: -35px;
@@ -2830,7 +2823,7 @@ section#contact .onepage-pagination li a.active:before {
   transition: all 0.2s ease-out;
 }
 
-/* line 391, ../scss/pages/_about.scss */
+/* line 387, ../scss/pages/_about.scss */
 .bx-wrapper .bx-prev:hover {
   -webkit-transform: scale(0.95);
   -moz-transform: scale(0.95);
@@ -2839,7 +2832,7 @@ section#contact .onepage-pagination li a.active:before {
   transform: scale(0.95);
 }
 
-/* line 399, ../scss/pages/_about.scss */
+/* line 395, ../scss/pages/_about.scss */
 .bx-wrapper .bx-next:hover {
   -webkit-transform: scale(0.95);
   -moz-transform: scale(0.95);
@@ -2848,7 +2841,7 @@ section#contact .onepage-pagination li a.active:before {
   transform: scale(0.95);
 }
 
-/* line 407, ../scss/pages/_about.scss */
+/* line 403, ../scss/pages/_about.scss */
 .bx-wrapper .bx-controls-direction a {
   position: absolute;
   outline: 0;
@@ -2858,12 +2851,12 @@ section#contact .onepage-pagination li a.active:before {
   z-index: 9;
 }
 
-/* line 416, ../scss/pages/_about.scss */
+/* line 412, ../scss/pages/_about.scss */
 .bx-wrapper .bx-controls-direction a.disabled {
   display: none;
 }
 
-/* line 421, ../scss/pages/_about.scss */
+/* line 417, ../scss/pages/_about.scss */
 #slider-wrap .bx-wrapper .bx-prev {
   left: 0;
   margin-left: 40px;
@@ -2873,7 +2866,7 @@ section#contact .onepage-pagination li a.active:before {
   background-size: 15px 15px;
 }
 
-/* line 430, ../scss/pages/_about.scss */
+/* line 426, ../scss/pages/_about.scss */
 #slider-wrap .bx-wrapper .bx-next {
   right: 0;
   margin-right: 40px;
@@ -2883,13 +2876,13 @@ section#contact .onepage-pagination li a.active:before {
   background-size: 15px 15px;
 }
 
-/* line 439, ../scss/pages/_about.scss */
+/* line 435, ../scss/pages/_about.scss */
 #slider-wrap .bx-wrapper .bx-controls-direction a {
   width: 40px;
   height: 40px;
 }
 
-/* line 444, ../scss/pages/_about.scss */
+/* line 440, ../scss/pages/_about.scss */
 .link-middle {
   position: absolute;
   bottom: 20px;
@@ -2911,13 +2904,13 @@ section#contact .onepage-pagination li a.active:before {
   transition: all 300ms linear;
 }
 
-/* line 464, ../scss/pages/_about.scss */
+/* line 460, ../scss/pages/_about.scss */
 .link-middle:hover {
   background: #3b3e45;
   color: #fff;
 }
 
-/* line 468, ../scss/pages/_about.scss */
+/* line 464, ../scss/pages/_about.scss */
 .link-left {
   position: absolute;
   bottom: 20px;
@@ -2939,13 +2932,13 @@ section#contact .onepage-pagination li a.active:before {
   transition: all 300ms linear;
 }
 
-/* line 488, ../scss/pages/_about.scss */
+/* line 484, ../scss/pages/_about.scss */
 .link-left:hover {
   background: #3b3e45;
   color: #fff;
 }
 
-/* line 492, ../scss/pages/_about.scss */
+/* line 488, ../scss/pages/_about.scss */
 .link-right {
   position: absolute;
   bottom: 20px;
@@ -2967,13 +2960,13 @@ section#contact .onepage-pagination li a.active:before {
   transition: all 300ms linear;
 }
 
-/* line 512, ../scss/pages/_about.scss */
+/* line 508, ../scss/pages/_about.scss */
 .link-right:hover {
   background: #3b3e45;
   color: #fff;
 }
 
-/* line 518, ../scss/pages/_about.scss */
+/* line 514, ../scss/pages/_about.scss */
 .tipper {
   height: 1px;
   left: -99999px;
@@ -2984,7 +2977,7 @@ section#contact .onepage-pagination li a.active:before {
   z-index: 1000;
 }
 
-/* line 519, ../scss/pages/_about.scss */
+/* line 515, ../scss/pages/_about.scss */
 .tipper .tipper-content {
   background: rgba(0, 0, 0, 0.85);
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
@@ -3001,7 +2994,7 @@ section#contact .onepage-pagination li a.active:before {
   white-space: nowrap;
 }
 
-/* line 520, ../scss/pages/_about.scss */
+/* line 516, ../scss/pages/_about.scss */
 .tipper .tipper-caret {
   background: url("../images/tipper-icon.png") no-repeat;
   content: '';
@@ -3012,31 +3005,31 @@ section#contact .onepage-pagination li a.active:before {
   width: 5px;
 }
 
-/* line 522, ../scss/pages/_about.scss */
+/* line 518, ../scss/pages/_about.scss */
 .tipper.right .tipper-content {
   box-shadow: 1px 0 3px rgba(0, 0, 0, 0.25);
 }
 
-/* line 523, ../scss/pages/_about.scss */
+/* line 519, ../scss/pages/_about.scss */
 .tipper.right .tipper-caret {
   background-position: left center;
   left: -5px;
   top: 0;
 }
 
-/* line 525, ../scss/pages/_about.scss */
+/* line 521, ../scss/pages/_about.scss */
 .tipper.left .tipper-content {
   box-shadow: -1px 0 3px rgba(0, 0, 0, 0.25);
 }
 
-/* line 526, ../scss/pages/_about.scss */
+/* line 522, ../scss/pages/_about.scss */
 .tipper.left .tipper-caret {
   background-position: right center;
   right: -5px;
   top: 0;
 }
 
-/* line 529, ../scss/pages/_about.scss */
+/* line 525, ../scss/pages/_about.scss */
 .tipper.top .tipper-caret,
 .tipper.bottom .tipper-caret {
   display: block;
@@ -3046,31 +3039,31 @@ section#contact .onepage-pagination li a.active:before {
   width: 11px;
 }
 
-/* line 531, ../scss/pages/_about.scss */
+/* line 527, ../scss/pages/_about.scss */
 .tipper.top .tipper-content {
   box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.25);
 }
 
-/* line 532, ../scss/pages/_about.scss */
+/* line 528, ../scss/pages/_about.scss */
 .tipper.top .tipper-caret {
   background-position: center bottom;
   bottom: -5px;
   left: 0;
 }
 
-/* line 534, ../scss/pages/_about.scss */
+/* line 530, ../scss/pages/_about.scss */
 .tipper.bottom .tipper-content {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
 }
 
-/* line 535, ../scss/pages/_about.scss */
+/* line 531, ../scss/pages/_about.scss */
 .tipper.bottom .tipper-caret {
   background-position: center top;
   top: -5px;
   left: 0;
 }
 
-/* line 538, ../scss/pages/_about.scss */
+/* line 534, ../scss/pages/_about.scss */
 #sep1 {
   position: relative;
   display: block;
@@ -3082,12 +3075,12 @@ section#contact .onepage-pagination li a.active:before {
   background-size: cover;
   text-align: center;
 }
-/* line 548, ../scss/pages/_about.scss */
+/* line 544, ../scss/pages/_about.scss */
 #sep1 h1 {
   color: #2a2a2a;
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
 }
-/* line 552, ../scss/pages/_about.scss */
+/* line 548, ../scss/pages/_about.scss */
 #sep1 .sub-font {
   font-family: 'Lato', sans-serif;
   text-align: center;
@@ -3099,12 +3092,12 @@ section#contact .onepage-pagination li a.active:before {
   margin: 0 auto;
   max-width: 600px;
 }
-/* line 563, ../scss/pages/_about.scss */
+/* line 559, ../scss/pages/_about.scss */
 #sep1 .z-index {
   z-index: 2000;
 }
 
-/* line 569, ../scss/pages/_about.scss */
+/* line 565, ../scss/pages/_about.scss */
 .parallax1 {
   background: url("../images/8.jpg") repeat fixed;
   background-size: cover;
@@ -3118,13 +3111,13 @@ section#contact .onepage-pagination li a.active:before {
 }
 
 @media only screen and (min-width: 1930px) {
-  /* line 581, ../scss/pages/_about.scss */
+  /* line 577, ../scss/pages/_about.scss */
   .parallax1 {
     background-size: cover;
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  /* line 583, ../scss/pages/_about.scss */
+  /* line 579, ../scss/pages/_about.scss */
   .parallax1 {
     background-size: cover;
     background-attachment: scroll;
@@ -3132,14 +3125,14 @@ section#contact .onepage-pagination li a.active:before {
   }
 }
 @media only screen and (max-width: 959px) {
-  /* line 586, ../scss/pages/_about.scss */
+  /* line 582, ../scss/pages/_about.scss */
   .parallax1 {
     background-size: cover;
     background-attachment: scroll;
     background-position: top center!important;
   }
 }
-/* line 588, ../scss/pages/_about.scss */
+/* line 584, ../scss/pages/_about.scss */
 .parallax2 {
   background: url("../images/16.jpg") repeat fixed;
   background-size: cover;
@@ -3153,13 +3146,13 @@ section#contact .onepage-pagination li a.active:before {
 }
 
 @media only screen and (min-width: 1930px) {
-  /* line 600, ../scss/pages/_about.scss */
+  /* line 596, ../scss/pages/_about.scss */
   .parallax2 {
     background-size: cover;
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  /* line 602, ../scss/pages/_about.scss */
+  /* line 598, ../scss/pages/_about.scss */
   .parallax2 {
     background-size: cover;
     background-attachment: scroll;
@@ -3167,14 +3160,14 @@ section#contact .onepage-pagination li a.active:before {
   }
 }
 @media only screen and (max-width: 959px) {
-  /* line 605, ../scss/pages/_about.scss */
+  /* line 601, ../scss/pages/_about.scss */
   .parallax2 {
     background-size: cover;
     background-attachment: scroll;
     background-position: top center!important;
   }
 }
-/* line 608, ../scss/pages/_about.scss */
+/* line 604, ../scss/pages/_about.scss */
 .parallax3 {
   background: url("../images/26.jpg") repeat fixed;
   background-size: cover;
@@ -3188,13 +3181,13 @@ section#contact .onepage-pagination li a.active:before {
 }
 
 @media only screen and (min-width: 1930px) {
-  /* line 620, ../scss/pages/_about.scss */
+  /* line 616, ../scss/pages/_about.scss */
   .parallax3 {
     background-size: cover;
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  /* line 622, ../scss/pages/_about.scss */
+  /* line 618, ../scss/pages/_about.scss */
   .parallax3 {
     background-size: cover;
     background-attachment: scroll;
@@ -3202,33 +3195,33 @@ section#contact .onepage-pagination li a.active:before {
   }
 }
 @media only screen and (max-width: 959px) {
-  /* line 625, ../scss/pages/_about.scss */
+  /* line 621, ../scss/pages/_about.scss */
   .parallax3 {
     background-size: cover;
     background-attachment: scroll;
     background-position: top center!important;
   }
 }
-/* line 627, ../scss/pages/_about.scss */
+/* line 623, ../scss/pages/_about.scss */
 #thevideo {
   display: none;
 }
 
-/* line 631, ../scss/pages/_about.scss */
+/* line 627, ../scss/pages/_about.scss */
 .video {
   width: 100%;
   height: auto;
   display: block;
 }
 
-/* line 636, ../scss/pages/_about.scss */
+/* line 632, ../scss/pages/_about.scss */
 iframe {
   width: 100%;
   height: auto;
   display: block;
 }
 
-/* line 641, ../scss/pages/_about.scss */
+/* line 637, ../scss/pages/_about.scss */
 .parallax4 {
   background: url("../images/28.jpg") repeat fixed;
   background-size: cover;
@@ -3242,13 +3235,13 @@ iframe {
 }
 
 @media only screen and (min-width: 1930px) {
-  /* line 653, ../scss/pages/_about.scss */
+  /* line 649, ../scss/pages/_about.scss */
   .parallax4 {
     background-size: cover;
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  /* line 655, ../scss/pages/_about.scss */
+  /* line 651, ../scss/pages/_about.scss */
   .parallax4 {
     background-size: cover;
     background-attachment: scroll;
@@ -3256,14 +3249,14 @@ iframe {
   }
 }
 @media only screen and (max-width: 959px) {
-  /* line 658, ../scss/pages/_about.scss */
+  /* line 654, ../scss/pages/_about.scss */
   .parallax4 {
     background-size: cover;
     background-attachment: scroll;
     background-position: top center!important;
   }
 }
-/* line 662, ../scss/pages/_about.scss */
+/* line 658, ../scss/pages/_about.scss */
 .parallax5 {
   background: url("../images/28.jpg") repeat fixed;
   background-size: cover;

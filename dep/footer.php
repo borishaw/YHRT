@@ -4,8 +4,9 @@
 			<div class="sixteen columns">
 				<div class="footer-social">
 					<ul>
-						<li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="https://www.facebook.com/Your-HR-Team-154593174559374" target="_blank"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://www.linkedin.com/company/10170185" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="https://www.instagram.com/yourhrteam/" target="_blank"><i class="fa fa-instagram"></i></a></li>
 					</ul>
 				</div>
 				<p>&copy; <?php echo date("Y"); ?> Your HR Team, Designed & Developed by <a href="http://www.ankitdesigns.com" target="_blank">Ankit Designs</a>.</p> 
@@ -32,6 +33,8 @@
 	<script type="text/javascript" src="js/modal.min.js"></script>
 	<script type="text/javascript" src="js/contact.js"></script>
 	<script type="text/javascript" src="js/template.js"></script>
+
+
 <?php } ?>
 
 <?php if($active=='about' || $active=='services') { ?>

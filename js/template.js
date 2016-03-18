@@ -72,6 +72,11 @@ $(document).ready(function(){
 			sectionContainer: "section",
 			responsiveFallback: 600
       });
+		
+		$('.scroll-btn').click(function(){
+			$(".main").moveDown();	
+		});
+		
 });
 
 

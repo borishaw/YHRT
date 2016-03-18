@@ -16,7 +16,7 @@ include('dep/top.php');
 		 
 		 <div class="home-content">
 			<div class="big-text big-text-center">Your HR Team</div>
-			<div class="small-text small-text-center">Your trusted strategic HR business partner.</div>
+			<div class="small-text small-text-center">Your trusted strategic HR business partner</div>
 		 </div>
 		 
 		 <div id="wrapper-slider">
@@ -26,8 +26,9 @@ include('dep/top.php');
 			 </div>
 		 </div>
 		 
-		 <div class="scroll-btn"><p>scroll</p></div>	
-	 </section>	
+		 <div class="scroll-btn"><p>scroll</p></div>
+		 
+	 </section>
 	
 	
 	 <section id="about">
