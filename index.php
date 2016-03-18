@@ -61,8 +61,9 @@ include('dep/top.php');
 	 <section id="contact">
 		 <div class="social-wrap">
 			 <ul class="social">
-				 <li class="facebook"><a href="#" class="entypo-facebook"></a></li>
-				 <li class="linked-in"><a href="#" class="entypo-linkedin"></a></li>
+				 <li class="facebook"><a target="_blank" href="https://www.facebook.com/Your-HR-Team-154593174559374" class="entypo-facebook"></a></li>
+				 <li class="linked-in"><a target="_blank" href="https://www.linkedin.com/company/10170185" class="entypo-linkedin"></a></li>
+				 <li class="instagram"><a target="_blank" href="https://www.instagram.com/yourhrteam/" class="entypo-instagrem"></a></li>
 			 </ul>
 		 </div>	
 	
@@ -100,28 +101,6 @@ include('dep/top.php');
 	 	 </div>
  </div>		
 
-<div id="modal-1" class="mb-modal">
- <h5>SEND US A MESSAGE</h5>
-				 <form name="ajax-form" id="ajax-form" action="mail-it.php" method="post">
-					 <label for="name">Your Name: * 
-						 <span class="error" id="err-name">please enter name</span>
-					 </label>
-					 <input name="name" id="name" type="text" />
-					 <label for="email">Your Email: * 
-						 <span class="error" id="err-email">please enter e-mail</span>
-						 <span class="error" id="err-emailvld">e-mail is not a valid format</span>
-					 </label>
-					 <input name="email" id="email" type="text" />
-					 <label for="message">Your Message:</label>
-					 <textarea name="message" id="message"></textarea>
-					 <div id="button-con"><button class="send_message" id="send">Submit</button></div>	
-					 <div class="error text-align-center" id="err-form">There was a problem validating the form please check!</div>
-					 <div class="error text-align-center" id="err-timedout">The connection to the server timed out!</div>
-					 <div class="error" id="err-state"></div>
-				 </form>
-				 <div id="ajaxsuccess">Successfully sent!!</div>	 
- <div class="close-modal">&#215;</div>
-</div>
 
  
 <?php include('dep/footer.php'); ?>

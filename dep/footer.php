@@ -41,13 +41,30 @@
 	<script type="text/javascript" src="js/jquery.localscroll-1.2.7-min.js"></script>
 	<script type="text/javascript" src="js/jquery.scrollTo-1.4.2-min.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script> 
-	<script type="text/javascript" src="js/jquery.counterup.min.js"></script> 
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
-	<script type="text/javascript" src="js/jquery.fs.tipper.min.js"></script>
 
 	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 <?php } ?>
+
+<?php if($active == 'services'): ?>
+
+	<script src="js/jquery.cbpNTAccordion.min.js"></script>
+	<script>
+		$( function() {
+			/*
+			- how to call the plugin:
+			$( selector ).cbpNTAccordion( [options] );
+			- destroy:
+			$( selector ).cbpNTAccordion( 'destroy' );
+			*/
+
+			$( '.cbp-ntaccordion' ).cbpNTAccordion();
+
+		} );
+	</script>
+
+<?php endif; ?>
 
 	<script type="text/javascript"> 
 

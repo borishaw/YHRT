@@ -27,219 +27,235 @@ include('dep/top.php');
 			</div>
 		</section>
 		
+		
 		<section>
-			<div id="slider-wrap" class="padding-project">
-				<div class="container">
-					<div class="sixteen columns">
-						<h4 data-scrollreveal="enter bottom and move 150px over 1s">Corporate</h4> 
-					</div>
-				</div>
-			</div>
-		</section>
-		
-		<section class="service">
 			<div class="container">
-				<div class="sixteen columns icon-center-container">
-					<img src="images/icon-hcm.png" alt="" />
-					<h5 data-scrollreveal="enter bottom and move 150px over 1s">Human Capital Management</h5>
-				</div>
-			</div>
-			<div class="container" data-scrollreveal="enter bottom and move 150px over 1s">
-				<div class="eight columns">
-					<h6><i class="fa fa-anchor"></i> HR Outsourcing Solutions</h6>
-					<p>Looking for a professional cost effective solution to managing your Human Resources needs? For about half the cost of hiring just one internal HR Professional, Your HR Team will tailor services to align with your company needs and let you focus on running your business. Let us be your HR Team!</p>
-				</div>
-				<div class="eight columns">
-					<h6><i class="fa fa-check-square-o"></i> Organizational Design &amp; Development</h6>
-					<p>We will work with you to give your business a "health check" through the review of your internal practices and provide you with solutions to enhance organizational performance and individual development.</p>
-				</div>
-			</div>
-			<div class="container" data-scrollreveal="enter bottom and move 150px over 1s">
-				<div class="eight columns">
-					<h6><i class="fa fa-users"></i> Talent Acquisition</h6>
-					<p>Many would argue the secret to sustainable business success is having the right talent at the right time, however, to truly succeed, their values need to align with yours. We show you how to get the right people for your company's future. </p>
-				</div>
-				<div class="eight columns">
-					<h6><i class="fa fa-child"></i> Employee Engagement &amp; Retention</h6>
-					<p>Do you have the right people; do you know how they feel about their work, company and leaders? We have the tools and expertise to help you measure, understand and act on your employee input to drive your business success. </p>
-				</div>
-			</div>
-			<div class="container" data-scrollreveal="enter bottom and move 150px over 1s">
-				<div class="eight columns">
-					<h6><i class="fa fa-exchange"></i> Succession Planning</h6>
-					<p>What next? Now that you have established a great business, do you have the right people to continue your vision?  Let us help you develop your sustainable business model through succession planning. </p>
-				</div>
-				<div class="eight columns">
-					<h6><i class="fa fa-gear"></i> Training &amp; Development</h6>
-					<p>We offer a wide range of programs in a variety of settings to develop your team. All our programs can be tailored to fit your business and team needs. Check out our Signature Workshops for further details. </p>
-				</div>
-			</div>
-		</section>
-		
-		
-		<section class="service">
-			<div class="container">
-				<div class="sixteen columns icon-center-container">
-					<img src="images/icon-sw.png" alt="" />
-					<h5 data-scrollreveal="enter bottom and move 150px over 1s">Signature Workshops</h5>
-				</div>
-			</div>
-			<div class="container" data-scrollreveal="enter bottom and move 150px over 1s">
 				<div class="sixteen columns">
-					<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-						<div class="panel panel-default">
-						  <div class="panel-heading" role="tab" id="headingOne">
-							 <h4 class="panel-title">
-								<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-								  Why Hire Me?
-								</a>
-							 </h4>
-						  </div>
-						  <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-							 <div class="panel-body">
-								<p>We help you answer the question, Why hire me?</p>
-								<p>When it comes to filling a role, the main question every employer has is "Why should I hire this candidate"?  </p>
-								<p>#Why Hire Me? Is a service that is geared towards helping you build a brand that tells employers why they should hire you. Here's what our service includes:</p>
-								<ul>
-									<li>Resume  (we also do video resumes to show case the individual on our website to  get exposure to potential employers as to why they should be hiring this person right now! </li>
-									<li>LinkedIn</li>
-									<li>Interview prep</li>
-									<li>Job search strategy </li>
-									<li>Ongoing coaching &amp; mentoring </li>
+					<h4 class="service-category" data-scrollreveal="enter bottom and move 150px over 1s">Corporate</h4> 
+				</div>
+				<div class="sixteen columns">
+					<ul id="cbp-ntaccordion" class="cbp-ntaccordion">
+						<li>
+							<h3 class="cbp-nttrigger">Human Capital Management</h3>
+							<div class="cbp-ntcontent">
+								<ul class="cbp-ntsubaccordion">
+									<li>
+										<h4 class="cbp-nttrigger">HR Outsourcing Solutions</h4>
+										<div class="cbp-ntcontent">
+											<i class="fa fa-anchor service-highlight-icon"></i>
+											<p>Looking for a professional cost effective solution to managing your Human Resources needs? For about half the cost of hiring just one internal HR Professional, Your HR Team will tailor services to align with your company needs and let you focus on running your business. Let us be your HR Team!</p>
+										</div>
+									</li>
+									<li>
+										<h4 class="cbp-nttrigger">Organizational Design &amp Development</h4>
+										<div class="cbp-ntcontent">
+											<i class="fa fa-check-square-o service-highlight-icon"></i>
+											<p>We will work with you to give your business a "health check" through the review of your internal practices and provide you with solutions to enhance organizational performance and individual development.</p>
+										</div>
+									</li>
+									<li>
+										<h4 class="cbp-nttrigger">Talent Acquisition</h4>
+										<div class="cbp-ntcontent">
+											<i class="fa fa-users service-highlight-icon"></i>
+											<p>Many would argue the secret to sustainable business success is having the right talent at the right time, however, to truly succeed, their values need to align with yours. We show you how to get the right people for your company's future.</p>
+										</div>
+									</li>
+									<li>
+										<h4 class="cbp-nttrigger">Employee Engagement &amp; Retention</h4>
+										<div class="cbp-ntcontent">
+											<i class="fa fa-child service-highlight-icon"></i>
+											<p>Do you have the right people; do you know how they feel about their work, company and leaders? We have the tools and expertise to help you measure, understand and act on your employee input to drive your business success.</p>
+										</div>
+									</li>
+									<li>
+										<h4 class="cbp-nttrigger">Succession Planning</h4>
+										<div class="cbp-ntcontent">
+											<i class="fa fa-exchange service-highlight-icon"></i>
+											<p>What next? Now that you have established a great business, do you have the right people to continue your vision? Let us help you develop your sustainable business model through succession planning.</p>
+										</div>
+									</li>
+									<li>
+										<h4 class="cbp-nttrigger">Training &amp; Development</h4>
+										<div class="cbp-ntcontent">
+											<i class="fa fa-gear service-highlight-icon"></i>
+											<p>We offer a wide range of programs in a variety of settings to develop your team. All our programs can be tailored to fit your business and team needs. Check out our Signature Workshops for further details.</p>
+										</div>
+									</li>
 								</ul>
-							 </div>
-						  </div>
-						</div>
-						<div class="panel panel-default">
-						  <div class="panel-heading" role="tab" id="headingTwo">
-							 <h4 class="panel-title">
-								<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-								  Management Skills for First Time Managers
-								</a>
-							 </h4>
-						  </div>
-						  <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-							 <div class="panel-body">
-								<p>Whether you just got your first big promotion and now have a big team to manage or you are managing one employee,  you play a vital role in linking your employees with your organization. With such a huge responsibility, here's what we can offer you to help continue your success journey:</p>
-								<ul>
-									<li>Setting expectations (for you and your team)</li>
-									<li>Effective Communication</li>
-									<li>Employee Engagement & Motivation</li>
-									<li>Understanding Coaching</li>
-									<li>Performance Management Tools</li>
-									<li>Practical tools for a first time manager</li>
+							</div>
+						</li>
+						<li>
+							<h3 class="cbp-nttrigger">Signature Workshops</h3>
+							<div class="cbp-ntcontent">
+								<ul class="cbp-ntsubaccordion">
+									<li>
+										<h4 class="cbp-nttrigger">Why Hire Me?</h4>
+										<div class="cbp-ntcontent">
+											<p>We help you answer the question, Why hire me?</p>
+											<p>When it comes to filling a role, the main question every employer has is "Why should I hire this candidate"?  </p>
+											<p>#Why Hire Me? Is a service that is geared towards helping you build a brand that tells employers why they should hire you. Here's what our service includes:</p>
+											<ul>
+												<li>Resume  (we also do video resumes to show case the individual on our website to  get exposure to potential employers as to why they should be hiring this person right now! </li>
+												<li>LinkedIn</li>
+												<li>Interview prep</li>
+												<li>Job search strategy </li>
+												<li>Ongoing coaching &amp; mentoring </li>
+											</ul>
+										</div>
+									</li>
+									<li>
+										<h4 class="cbp-nttrigger">Management Skills for First Time Managers</h4>
+										<div class="cbp-ntcontent">
+											<p>Whether you just got your first big promotion and now have a big team to manage or you are managing one employee,  you play a vital role in linking your employees with your organization. With such a huge responsibility, here's what we can offer you to help continue your success journey:</p>
+											<ul>
+												<li>Setting expectations (for you and your team)</li>
+												<li>Effective Communication</li>
+												<li>Employee Engagement & Motivation</li>
+												<li>Understanding Coaching</li>
+												<li>Performance Management Tools</li>
+												<li>Practical tools for a first time manager</li>
+											</ul>
+										</div>
+									</li>
+									<li>
+										<h4 class="cbp-nttrigger">The Engaged Leader</h4>
+										<div class="cbp-ntcontent">
+											<p>Employee Engagement is a key factor of any company success. When polled, CEOs across the globe agreed that Employee Engagement is critical to driving the business. </p>
+											<p>This course takes a look at Managers and their role in engaging their employees and business leaders and how they contribute to building a trust based culture that drives business success. </p>
+										</div>
+									</li>
+									<li>
+										<h4 class="cbp-nttrigger">Performance Management Skills</h4>
+										<div class="cbp-ntcontent">
+											<p>Helping your team realize their full potential and getting the best out of them requires a unique blend of skills. This course will help you understand how to get the best out of your team. Here are some of the tools you will explore:</p>
+											<ul>
+												<li>The Feedback Cycle</li>
+												<li>Listening skills</li>
+												<li>The Right Recognition</li>
+												<li>Probing Skills</li>
+												<li>Development Opportunities</li>
+												<li>Objective Setting</li>
+												<li>Follow Through </li>
+												<li>Leading by example &mdash; demonstrating positive behavior</li>
+											</ul>
+										</div>
+									</li>
+									<li>
+										<h4 class="cbp-nttrigger">Managing Workplace Conflict</h4>
+										<div class="cbp-ntcontent">
+											<p>Workplace conflict is a common part of any workplace, however, learning to how to manage it can be the difference between success and failure for individuals and organizations.</p>
+											<p>In this program you will learn key skills to help you mitigate and deal with workplace conflict, including:</p>
+											<ul>
+												<li>Defining workplace conflict</li>
+												<li>What is your role as a manager</li>
+												<li>Understanding the true cause of the conflict</li>
+												<li>Who to involve </li>
+												<li>Do you coach or discipline?</li>
+												<li>Escalations </li>
+											</ul>
+										</div>
+									</li>
 								</ul>
-							 </div>
-						  </div>
-						</div>
-						<div class="panel panel-default">
-						  <div class="panel-heading" role="tab" id="headingThree">
-							 <h4 class="panel-title">
-								<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-								  The Engaged Leader
-								</a>
-							 </h4>
-						  </div>
-						  <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-							 <div class="panel-body">
-								<p>Employee Engagement is a key factor of any company success. When polled, CEOs across the globe agreed that Employee Engagement is critical to driving the business. </p>
-								<p>This course takes a look at Managers and their role in engaging their employees and business leaders and how they contribute to building a trust based culture that drives business success. </p>
-							 </div>
-						  </div>
-						</div>
-						<div class="panel panel-default">
-						  <div class="panel-heading" role="tab" id="headingFour">
-							 <h4 class="panel-title">
-								<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
-								  Performance Management Skills
-								</a>
-							 </h4>
-						  </div>
-						  <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-							 <div class="panel-body">
-								<p>Helping your team realize their full potential and getting the best out of them requires a unique blend of skills. This course will help you understand how to get the best out of your team. Here are some of the tools you will explore:</p>
-								<ul>
-									<li>The Feedback Cycle</li>
-									<li>Listening skills</li>
-									<li>The Right Recognition</li>
-									<li>Probing Skills</li>
-									<li>Development Opportunities</li>
-									<li>Objective Setting</li>
-									<li>Follow Through </li>
-									<li>Leading by example &mdash; demonstrating positive behavior</li>
-								</ul>
-							 </div>
-						  </div>
-						</div>
-						<div class="panel panel-default">
-						  <div class="panel-heading" role="tab" id="headingFive">
-							 <h4 class="panel-title">
-								<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-								  Managing Workplace Conflict
-								</a>
-							 </h4>
-						  </div>
-						  <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-							 <div class="panel-body">
-								<p>Workplace conflict is a common part of any workplace, however, learning to how to manage it can be the difference between success and failure for individuals and organizations.</p>
-								<p>In this program you will learn key skills to help you mitigate and deal with workplace conflict, including:</p>
-								<ul>
-									<li>Defining workplace conflict</li>
-									<li>What is your role as a manager</li>
-									<li>Understanding the true cause of the conflict</li>
-									<li>Who to involve </li>
-									<li>Do you coach or discipline?</li>
-									<li>Escalations </li>
-								</ul>
-							 </div>
-						  </div>
-						</div>
-					 </div>
+							</div>
+						</li>
+					</ul>
 				</div>
 			</div>
-			
 		</section>
+		
 		
 		<section>
-			<div id="slider-wrap" class="padding-project">
-				<div class="container">
-					<hr>
+			<div class="container">
+				<div class="sixteen columns">
+					<h4 class="service-category" data-scrollreveal="enter bottom and move 150px over 1s">Individual</h4> 
+				</div>
+				<div class="sixteen columns">
+					<ul id="cbp-ntaccordion2" class="cbp-ntaccordion">
+						<li>
+							<h3 class="cbp-nttrigger">Personal Branding</h3>
+							<div class="cbp-ntcontent">
+								<i class="fa fa-certificate service-highlight-icon"></i>
+								<p>Do you Stand Out in your career? Are you doing all you can to market your brand? We can help you build a compelling personal brand that will set you apart and help you achieve your professional goals.</p>
+							</div>
+						</li>
+						<li>
+							<h3 class="cbp-nttrigger">Signature Workshops</h3>
+							<div class="cbp-ntcontent">
+								<ul class="cbp-ntsubaccordion">
+									<li>
+										<h4 class="cbp-nttrigger">Why Hire Me?</h4>
+										<div class="cbp-ntcontent">
+											<p>We help you answer the question, Why hire me?</p>
+											<p>When it comes to filling a role, the main question every employer has is "Why should I hire this candidate"?  </p>
+											<p>#Why Hire Me? Is a service that is geared towards helping you build a brand that tells employers why they should hire you. Here's what our service includes:</p>
+											<ul>
+												<li>Resume  (we also do video resumes to show case the individual on our website to  get exposure to potential employers as to why they should be hiring this person right now! </li>
+												<li>LinkedIn</li>
+												<li>Interview prep</li>
+												<li>Job search strategy </li>
+												<li>Ongoing coaching &amp; mentoring </li>
+											</ul>
+										</div>
+									</li>
+									<li>
+										<h4 class="cbp-nttrigger">Management Skills for First Time Managers</h4>
+										<div class="cbp-ntcontent">
+											<p>Whether you just got your first big promotion and now have a big team to manage or you are managing one employee,  you play a vital role in linking your employees with your organization. With such a huge responsibility, here's what we can offer you to help continue your success journey:</p>
+											<ul>
+												<li>Setting expectations (for you and your team)</li>
+												<li>Effective Communication</li>
+												<li>Employee Engagement & Motivation</li>
+												<li>Understanding Coaching</li>
+												<li>Performance Management Tools</li>
+												<li>Practical tools for a first time manager</li>
+											</ul>
+										</div>
+									</li>
+									<li>
+										<h4 class="cbp-nttrigger">The Engaged Leader</h4>
+										<div class="cbp-ntcontent">
+											<p>Employee Engagement is a key factor of any company success. When polled, CEOs across the globe agreed that Employee Engagement is critical to driving the business. </p>
+											<p>This course takes a look at Managers and their role in engaging their employees and business leaders and how they contribute to building a trust based culture that drives business success. </p>
+										</div>
+									</li>
+									<li>
+										<h4 class="cbp-nttrigger">Performance Management Skills</h4>
+										<div class="cbp-ntcontent">
+											<p>Helping your team realize their full potential and getting the best out of them requires a unique blend of skills. This course will help you understand how to get the best out of your team. Here are some of the tools you will explore:</p>
+											<ul>
+												<li>The Feedback Cycle</li>
+												<li>Listening skills</li>
+												<li>The Right Recognition</li>
+												<li>Probing Skills</li>
+												<li>Development Opportunities</li>
+												<li>Objective Setting</li>
+												<li>Follow Through </li>
+												<li>Leading by example &mdash; demonstrating positive behavior</li>
+											</ul>
+										</div>
+									</li>
+									<li>
+										<h4 class="cbp-nttrigger">Managing Workplace Conflict</h4>
+										<div class="cbp-ntcontent">
+											<p>Workplace conflict is a common part of any workplace, however, learning to how to manage it can be the difference between success and failure for individuals and organizations.</p>
+											<p>In this program you will learn key skills to help you mitigate and deal with workplace conflict, including:</p>
+											<ul>
+												<li>Defining workplace conflict</li>
+												<li>What is your role as a manager</li>
+												<li>Understanding the true cause of the conflict</li>
+												<li>Who to involve </li>
+												<li>Do you coach or discipline?</li>
+												<li>Escalations </li>
+											</ul>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</section>
-		
-		<section>
-			<div id="slider-wrap" class="padding-project">
-				<div class="container">
-					<div class="sixteen columns">
-						<h4 data-scrollreveal="enter bottom and move 150px over 1s">Individual</h4> 
-					</div>
-				</div>
-			</div>
-		</section>
-		
-		
-		<section class="service">
-			<div class="container" data-scrollreveal="enter bottom and move 150px over 1s">
-				<div class="eight columns">
-					<h6><i class="fa fa-certificate"></i> Personal Branding</h6>
-					<p>A short description should go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a velit dui. Curabitur iaculis elit felis, vel blandit felis sagittis mollis.</p>
-				</div>
-				<div class="eight columns">
-					<h6><i class="fa fa-cogs"></i> Signature Workshops</h6>
-					<p>A short description should go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a velit dui. Curabitur iaculis elit felis, vel blandit felis sagittis mollis.</p>
-				</div>
-			</div>
-			<div class="container" data-scrollreveal="enter bottom and move 150px over 1s">
-				<div class="eight columns">
-					<h6><i class="fa fa-flag"></i> New Canadian Services</h6>
-					<p>A short description should go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a velit dui. Curabitur iaculis elit felis, vel blandit felis sagittis mollis.</p>
-				</div>
-			</div>
-		</section>
-		
-
-		
 
 		
 		<div class="clear"></div>

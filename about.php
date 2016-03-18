@@ -76,7 +76,7 @@ include('dep/top.php');
 				<div class="six columns" data-scrollreveal="enter right and move 150px over 1s">
 					<div class="team-img">
 						<div class="team-img-in">
-							<img  src="images/team/02.jpg" alt="" />	
+							<img  src="images/team/maha.jpg" alt="" />	
 						</div>
 					</div>
 				</div>

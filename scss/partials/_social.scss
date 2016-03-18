@@ -9,7 +9,7 @@
 }
 .social-wrap {
 	height: 50px;
-	right: 80px;
+	right: 60px;
 	top:50px;
 	position: absolute;
 	width: 90px;
@@ -43,7 +43,7 @@
 	color: #fffdf0;
 	display: block;
 	height: 50px;
-	line-height: 45px;
+	line-height: 49px;
 	text-align: center;
 	-webkit-transition: -webkit-transform .5s;
 	-moz-transition: -moz-transform .5s;
@@ -68,8 +68,8 @@
 
 .facebook {
 	background: rgba(21,91,157,.7);
-	left: 20%;
-	top: 0%;
+	left: 0;
+	top: 0;
 }
 
 .twitter {
@@ -84,14 +84,14 @@
 	top: 0%;
 }
 
-.behance {
-	background: rgba(63,122,163,.7);
-	bottom: 0;
-	left: 75%;
+.instagram {
+	background: rgba(#3f729b,.7);
+	bottom: -40px;
+	left: 40px;
 }
 
 .linked-in {
 	background: rgba(21,127,157,.7);
-	left: 100%;
-	top: 0%;
+	left: 80px;
+	top: 0;
 }
