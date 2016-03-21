@@ -72,23 +72,7 @@ include('dep/top.php');
 			  
 			 <div class="contact-content">
 				<p class="contact-cta">We would love to hear from you. If you have any questions about our services and are interested in a complimentary consultation regarding what we can do for your business, <i>Please Contact Us Today.</i></p>
-				<form name="ajax-form" id="ajax-form" action="mail-it.php" method="post">
-					 <label for="name">Your Name: * 
-						 <span class="error" id="err-name">please enter name</span>
-					 </label>
-					 <input name="name" id="name" type="text" />
-					 <label for="email">Your Email: * 
-						 <span class="error" id="err-email">please enter e-mail</span>
-						 <span class="error" id="err-emailvld">e-mail is not a valid format</span>
-					 </label>
-					 <input name="email" id="email" type="text" />
-					 <label for="message">Your Message:</label>
-					 <textarea name="message" id="message"></textarea>
-					 <div id="button-con"><button class="send_message" id="send">Submit</button></div>	
-					 <div class="error text-align-center" id="err-form">There was a problem validating the form please check!</div>
-					 <div class="error text-align-center" id="err-timedout">The connection to the server timed out!</div>
-					 <div class="error" id="err-state"></div>
-				 </form>
+				<?php include ('dep/contact-form.php') ?>
 				<div class="contact-wrap">
 					<p><strong>Visit Us:</strong> 2574 St. Clair Ave W., Toronto, ON M6N 1L8</p>
 					<p><strong>Mail Us:</strong> <a href="mailto:info@yourhrteam.ca" title="Mail Us">info@yourhrteam.ca</a></p>

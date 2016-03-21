@@ -17,7 +17,6 @@
 	
 	<!-- JAVASCRIPT
     ================================================== -->
-<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 <script type="text/javascript" src="js/modernizr.custom.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/retina.js/1.3.0/retina.min.js"></script>	
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>

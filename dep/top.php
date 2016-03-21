@@ -36,8 +36,13 @@
 	
     <!--[if lte IE 8]>
         <script src="js/html5.js"></script>
-    <![endif]-->		
-		
+    <![endif]-->
+
+	<!--Form Handling-->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/additional-methods.min.js"></script>
 	
 </head>
 <body>
