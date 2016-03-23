@@ -41,7 +41,7 @@ if ($resp->isSuccess()){
     unset($_POST['g-recaptcha-response']);
     $mail = new PHPMailer();
     $mail->setFrom($_POST['Email'], $_POST['Name']);
-    $mail->addAddress('boris@ankitdesigns.com', 'Boris');
+    $mail->addAddress('julie@ankitdesigns.com', 'Julie');
     $mail->isHTML(true);
     if (isset($_POST['Subject'])){
         $mail->Subject = $_POST['Subject'];

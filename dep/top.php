@@ -64,7 +64,14 @@
 				<ul>
 					<li><a href="index.php">Home</a></li>
 					<li><a href="about.php">About</a></li>
-					<li><a href="services.php">Services</a></li>
+					<li>
+						<a data-toggle="collapse" href="#serviceSections" aria-expanded="false" aria-controls="serviceSections">Services</a>
+						<div class="collapse" id="serviceSections">
+							<div class="well">
+							  <a href="services-corporate.php">Corporations</a> / <a href="services-individual.php">Individuals</a>
+							</div>
+						 </div>
+					</li>
 					<li><a href="index.php#4">Contact</a></li>
 				</ul>
 			</nav>

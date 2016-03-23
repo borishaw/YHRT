@@ -74,7 +74,7 @@ left: 0;
 
 
 .just_pattern { 
-	background-image: url(../images/pattern.png); 
+	background: url(../images/pattern.png); 
 	position: absolute; 
 	opacity: 0.5; 
 	left: 0px;
@@ -84,6 +84,13 @@ left: 0;
 	width: 100%;
 	height: 100%; 
 	z-index: 10; 
+}
+
+.overlay {
+	.just_pattern {
+		background: #fff url(../images/pattern.png);
+		opacity: 0.6;
+	}
 }
 
 .logo {
@@ -318,6 +325,7 @@ body.disabled-onepage-scroll, .disabled-onepage-scroll .onepage-wrapper, html {
 	line-height:16px;
 	color: #fff;
 	margin-top: 15px;
+	display: inline-block;
 	a {
 		position: relative;
 		display: inline-block;
@@ -485,7 +493,11 @@ body.disabled-onepage-scroll, .disabled-onepage-scroll .onepage-wrapper, html {
 	z-index: 20;
 	max-width: 600px;
 	padding: 30px;
+	text-align: right;
 	background-color: rgba(#ffffff, 0.7);
+	.link1 {
+		margin-left: 20px;
+	}
 }
 
 
@@ -609,4 +621,8 @@ section#contact .onepage-pagination li a.active:before{
 
 .contact-wrap a.modal-link:hover{
 	text-decoration: none;
+}
+
+.g-recaptcha {
+	padding: 10px 0;
 }

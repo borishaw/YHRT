@@ -52,7 +52,8 @@ include('dep/top.php');
 			<p class="small-text small-text-bottom-right" >
 			  Your HR Team provides you with tailored, cost-effective solutions for your human capital needs.
 			</p>
-			<div class="link1"><div class="cl-effect-20"><a href="services.php"><span data-hover="Find out more">Find out more</span></a></div></div>	
+			<div class="link1"><div class="cl-effect-20"><a href="services-corporate.php"><span data-hover="Find out more">Corporations</span></a></div></div>	
+			<div class="link1"><div class="cl-effect-20"><a href="services-individual.php"><span data-hover="Find out more">Individuals</span></a></div></div>	
 		 </div>
 		 		
 		 	
@@ -71,7 +72,6 @@ include('dep/top.php');
 			 <div id="map"></div>	
 			  
 			 <div class="contact-content">
-				<p class="contact-cta">We would love to hear from you. If you have any questions about our services and are interested in a complimentary consultation regarding what we can do for your business, <i>Please Contact Us Today.</i></p>
 				<?php include ('dep/contact-form.php') ?>
 				<div class="contact-wrap">
 					<p><strong>Visit Us:</strong> 2574 St. Clair Ave W., Toronto, ON M6N 1L8</p>
