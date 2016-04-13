@@ -1,5 +1,9 @@
 // Styles
 
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
 
 // Setup
 @import 'partials/mixins';
@@ -14,13 +18,12 @@
 @import 'partials/social';
 @import 'partials/forms';
 @import 'partials/elements';
+@import 'partials/tooltip';
 
 // Pages
 @import 'pages/home';
 @import 'pages/about';
 @import 'pages/services';
-// @import 'pages/projects';
-// @import 'pages/work';
 
 // Responsive
 @import 'partials/retina';

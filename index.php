@@ -54,6 +54,7 @@ include('dep/top.php');
 			</p>
 			<div class="link1"><div class="cl-effect-20"><a href="services-corporate.php"><span data-hover="Find out more">Corporations</span></a></div></div>	
 			<div class="link1"><div class="cl-effect-20"><a href="services-individual.php"><span data-hover="Find out more">Individuals</span></a></div></div>	
+			<div class="link1"><div class="cl-effect-20"><a href="services-workshop.php"><span data-hover="Find out more">Workshops</span></a></div></div>	
 		 </div>
 		 		
 		 	
