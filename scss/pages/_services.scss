@@ -1,6 +1,13 @@
 // Services
 
 
+.header-icon {
+    font-size: 60px;
+	 line-height: 80px;
+    color: #C5232D;
+    padding-bottom: 10px;
+}
+
 #services-single{
 	position: relative; 
 	margin: 0 auto;
@@ -677,4 +684,14 @@ h4.service-category{
 	 width: 100px;
 	 text-align: center;
 	 color: $c-red;
+}
+
+@each $color, $variable in (pink, $c-pink),
+									 (blue, $c-blue),
+									 (yellow, $c-yellow),
+									 (teal, $c-teal),
+									 (purple, $c-purple) {
+  .color-#{$color} {
+    color: #{$variable} !important;
+  }
 }

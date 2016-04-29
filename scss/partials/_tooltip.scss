@@ -94,6 +94,21 @@ $border-style: 1px dashed #C3C3C3;
 			}
 		}
 	}
+	.tooltip-content {
+		p {
+			margin-bottom: 10px;
+		}
+		li {
+			padding-left: 0;
+			text-indent: 0;
+			font-size:13px;
+			font-weight: 700;
+			padding-bottom: 2px;
+			&:before {
+				display: none;
+			}
+		}
+	}
 }
 
 /* Gap filler */

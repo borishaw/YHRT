@@ -10,7 +10,7 @@ include('dep/top.php');
 		<div class="logo"></div>	
 				
 		<div id="sep1" style="background-image: url('images/bg/header-bg-08.jpg');">
-			<img src="images/icons/icon-services.png" alt="Target Icon" />
+			<i class="entypo-user header-icon"></i>
 			<h1>Services For Individuals</h1>
 			<div class="sub-font">Your HR Team provides you with tailored, cost-effective solutions for your human capital needs</div>
 		</div>	
@@ -49,7 +49,7 @@ include('dep/top.php');
 				<div class="one-third column">
 					<div class="tooltip tooltip-effect-1">
 						<span class="tooltip-item">
-							<i class="entypo-docs service-icon"></i>
+							<i class="entypo-docs service-icon color-teal"></i>
 							<h5>Resume</h5>
 							<i class="fa fa-plus-square-o more-icon"></i>
 						</span>
@@ -63,7 +63,7 @@ include('dep/top.php');
 				<div class="one-third column">
 					<div class="tooltip no-tip">
 						<span class="tooltip-item">
-							<i class="entypo-linkedin-circled service-icon"></i>
+							<i class="entypo-linkedin-circled service-icon color-purple"></i>
 							<h5>LinkedIn</h5>
 						</span>
 					</div>
@@ -71,7 +71,7 @@ include('dep/top.php');
 				<div class="one-third column">
 					<div class="tooltip no-tip">
 						<span class="tooltip-item">
-							<i class="entypo-chat service-icon"></i>
+							<i class="entypo-chat service-icon color-pink"></i>
 							<h5>Interview Prep</h5>
 						</span>
 					</div>
@@ -81,7 +81,7 @@ include('dep/top.php');
 				<div class="one-third column">
 					<div class="tooltip no-tip">
 						<span class="tooltip-item">
-							<i class="entypo-search service-icon"></i>
+							<i class="entypo-search service-icon color-blue"></i>
 							<h5>Job search strategy</h5>
 						</span>
 					</div>
@@ -89,7 +89,7 @@ include('dep/top.php');
 				<div class="one-third column">
 					<div class="tooltip no-tip">
 						<span class="tooltip-item">
-							<i class="fa fa-puzzle-piece service-icon"></i>
+							<i class="fa fa-puzzle-piece service-icon color-yellow"></i>
 							<h5>Ongoing coaching &amp; mentoring</h5>
 						</span>
 					</div>

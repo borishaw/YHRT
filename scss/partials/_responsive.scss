@@ -15,15 +15,12 @@
 }
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 .big-text { 
-	margin-top:-45px;
-	text-shadow: 0 0 10px rgba(0,0,0,0.3);
 	font-size: 50px; 
 	line-height:50px;
 }
 .small-text { 
-	margin-top:23px;
 	font-size: 18px; 
-	line-height:18px; 
+	line-height:24px; 
 }
 .prev {
 	top:auto;
@@ -51,7 +48,6 @@
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 .big-text { 
-	text-shadow: 0 0 10px rgba(0,0,0,0.3);
 	font-size: 40px; 
 	line-height:40px;
 }
@@ -124,8 +120,6 @@
 }
 @media only screen and (min-width: 320px) and (max-width: 479px) {
 .big-text { 
-	margin-top:-30px;
-	text-shadow: 0 0 5px rgba(0,0,0,0.3);
 	font-size: 24px; 
 	line-height:24px;
 }
@@ -205,8 +199,6 @@
 
 @media only screen and (max-width: 319px) {
 .big-text { 
-	margin-top:-27px;
-	text-shadow: 0 0 5px rgba(0,0,0,0.3);
 	font-size: 20px; 
 	line-height:20px;
 }
@@ -285,6 +277,18 @@
 }
 
 @media screen and (max-width: 768px) {
+	
+	p {
+		font-size: 16px;
+		line-height: 24px;
+	}
+	
+	.logo {
+		left: auto;
+		right: 25px;
+	}
+	
+	
 	.service-1 {
 		h4 {
 			text-align: center;
@@ -296,7 +300,6 @@
 		}
 	}
 	
-	
 	.service-2 {
 		h4 {
 			text-align: center;
@@ -307,4 +310,78 @@
 			}
 		}
 	}
+	
+	.tooltip-services {
+		.column, .columns {
+			border-right: none !important;
+			border-bottom: 1px dashed #C3C3C3;
+			padding: 0;
+		}
+	}
+	
+	.tooltip-item {
+		padding-bottom: 5px;
+		&:last-child {
+			padding-bottom: 25px;
+		}
+		.more-icon {
+			display: none;
+		}
+	}
+	.tooltip-content {
+		position: static;
+		opacity: 1;
+		background: transparent;
+		box-shadow: none;
+		margin: 0;
+		&:after {
+			display: none;
+		}
+		.tooltip-text {
+			color: $c-black;
+			padding-top: 0;
+		}
+	}
+	
+	.panel-heading {
+		padding: 0 0 5px;
+	}
+	
+	.panel-group {
+		.panel-body {
+			padding: 0;
+		}
+	}
+	
+}
+
+
+@media screen and (max-width: 480px) {
+	
+	.about-content,
+	.services-content {
+		left: 0;
+		right: 0;
+		width: 100%;
+		.small-text {
+			line-height: 18px;
+		}
+	}
+	
+	#contact {
+		height: auto;
+	}
+	
+	#map {
+		left: 0;
+		width: 100%;
+		height: 400px;
+	}
+	
+	.contact-content {
+		width: 100%;
+		position: relative;
+		top: 0;
+	}
+	
 }

@@ -10,7 +10,7 @@ include('dep/top.php');
 		<div class="logo"></div>	
 				
 		<div id="sep1" style="background-image: url('images/bg/header-bg-07.jpg');">
-			<img src="images/icons/icon-services.png" alt="Target Icon" />
+			<i class="fa fa-briefcase header-icon"></i>
 			<h1>Corporate Services</h1>
 			<div class="sub-font">Your HR Team provides you with tailored, cost-effective solutions for your human capital needs</div>
 		</div>	
@@ -30,7 +30,7 @@ include('dep/top.php');
 				<div class="one-third column">
 					<div class="tooltip tooltip-effect-1">
 						<span class="tooltip-item">
-							<i class="fa fa-anchor service-icon"></i>
+							<i class="fa fa-anchor service-icon color-pink"></i>
 							<h5>HR Outsourcing Solutions</h5>
 							<i class="fa fa-plus-square-o more-icon"></i>
 						</span>
@@ -44,7 +44,7 @@ include('dep/top.php');
 				<div class="one-third column">
 					<div class="tooltip tooltip-effect-1">
 						<span class="tooltip-item">
-							<i class="fa fa-check-square-o service-icon"></i>
+							<i class="fa fa-check-square-o service-icon color-blue"></i>
 							<h5>Organizational Design &amp; Development</h5>
 							<i class="fa fa-plus-square-o more-icon"></i>
 						</span>
@@ -58,7 +58,7 @@ include('dep/top.php');
 				<div class="one-third column">
 					<div class="tooltip tooltip-effect-1">
 						<span class="tooltip-item">
-							<i class="fa fa-users service-icon"></i>
+							<i class="fa fa-users service-icon color-yellow"></i>
 							<h5>Talent Acquisition</h5>
 							<i class="fa fa-plus-square-o more-icon"></i>
 						</span>
@@ -74,7 +74,7 @@ include('dep/top.php');
 				<div class="one-third column">
 					<div class="tooltip tooltip-effect-1">
 						<span class="tooltip-item">
-							<i class="fa fa-child service-icon"></i>
+							<i class="fa fa-child service-icon color-teal"></i>
 							<h5> Employee Engagement &amp; Retention</h5>
 							<i class="fa fa-plus-square-o more-icon"></i>
 						</span>
@@ -88,7 +88,7 @@ include('dep/top.php');
 				<div class="one-third column">
 					<div class="tooltip tooltip-effect-1">
 						<span class="tooltip-item">
-							<i class="fa fa-exchange service-icon"></i>
+							<i class="fa fa-exchange service-icon color-purple"></i>
 							<h5>Succession Planning</h5>
 							<i class="fa fa-plus-square-o more-icon"></i>
 						</span>
